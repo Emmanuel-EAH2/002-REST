@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 
 
 app.get('/', function(req, res){ // Aqui indicamos una funcion get, la cual pide 2 parametros, la url y la funcion como tal (el req es solicitar algo del cliente) y (el res, es la respuesta del servidor)
-res.send('hellow word');// el send es acepta etiquetado HTML
+res.send('Bienvenido a mi Servidor REST mi nombre es: Emmanuel Amezquita Hernandez');// el send es acepta etiquetado HTML
 });
 
 
